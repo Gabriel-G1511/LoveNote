@@ -1,0 +1,83 @@
+
+  
+    /* Estilos gerais do corpo */
+    body {
+      margin: 0;
+      font-family: 'Playfair Display', serif;
+      background-color: #fff8f5;
+      color: #333;
+      line-height: 1.8;
+    }
+
+    /* Estrutura base das seções */
+    .secao {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .secao h1, .secao p {
+      max-width: 800px;
+      margin: 0 auto 20px;
+      font-size: 1.4em;
+    }
+
+    .secao img {
+      max-width: 60%;
+      display: block;
+      margin: 30px auto;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    /* Capa inicial com destaque */
+    .capa {
+      background: linear-gradient(to bottom right, #ffe4e1, #fff0f5);
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
+
+    .capa h1 {
+      font-size: 3em;
+      color: #c71585;
+      font-family: 'Great Vibes', cursive;
+    }
+
+    /* Seção final com ênfase */
+    .final {
+      background-color: #fae6eb;
+      font-weight: bold;
+      font-size: 1.5em;
+      padding: 80px 20px;
+      border-top: 4px solid #c71585;
+    }
+
+    .final p {
+      font-size: 1.3em;
+      line-height: 1.6;
+      font-style: italic;
+      color: #b34773;
+      max-width: 700px;
+      margin: 0 auto 20px;
+    }
+
+    /* Assinatura estilizada */
+    .assinatura {
+      font-family: 'Great Vibes', cursive;
+      font-size: 2em;
+      color: #000;
+      margin-top: 30px;
+    }
+
+    /* Responsividade */
+    @media (max-width: 768px) {
+      .secao img {
+        max-width: 90%;
+      }
+      .capa h1 {
+        font-size: 2.2em;
+      }
+      .secao p {
+        font-size: 1.2em;
+      }
+    }
+  
